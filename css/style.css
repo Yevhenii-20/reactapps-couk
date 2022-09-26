@@ -25,7 +25,6 @@ a {
 
 .header-section, main, .footer-section {
     width: 100%;
-    max-width: 1920px;
     margin: 0 auto;
 }
 
@@ -170,19 +169,13 @@ a {
 
 /* DESCRIPTION SECTION */
 
-.description-container {
-    width: 100%;
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
 .frame-img-block {
-    width: 37%;
+    width: 33%;
     font-size: 0;
 }
 
 .frame-text-block {
-    width: 63%;
+    width: 67%;
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -352,7 +345,7 @@ a {
 }
 
 @media screen and (max-width:1200px) {
-    .main-container, .description-container {
+    .main-container {
         box-sizing: border-box;
         padding-left: 15px;
         padding-right: 15px;
