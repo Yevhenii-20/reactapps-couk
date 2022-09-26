@@ -194,6 +194,14 @@ a {
     background: #ff1493;
 }
 
+.desktop-app-frame .frame-text-block {
+    width: 60%;
+}
+
+.desktop-app-frame .frame-img-block {
+    width: 40%;
+}
+
 .frame-block {
     width: 100%;
     display: flex;
@@ -222,6 +230,7 @@ a {
 
 .frame-block .button-main {
     margin-top: 20px;
+    width: fit-content;
 }
 
 .frame-block .button-main:hover {
@@ -392,7 +401,7 @@ a {
 
     .frame-text-block {
         padding: 20px 0px 0px 0px;
-        width: 100%;
+        width: 100%!important;
     }
     
     .desktop-app-frame {
@@ -403,6 +412,9 @@ a {
         background: #ff1493;
     }
 
+    .frame-block .button-main {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width:768px) {
