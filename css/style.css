@@ -132,11 +132,15 @@ a {
     text-align: center;
     font-size: 16px;
     line-height: 1.4;
+    border-radius: 0px;
+    transition: 0.5s;
 }
 
 .button-main:hover {
     background: #E46713;
     color: #fff;
+    transition: 0.5s;
+    border-radius: 20px;
     transition: 0.5s;
 }
 
@@ -172,6 +176,10 @@ a {
 .frame-img-block {
     width: 33%;
     font-size: 0;
+    height: 385px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .frame-text-block {
@@ -199,11 +207,6 @@ a {
     background: #1b313e;
 }
 
-.desktop-app-frame, .geeky-frame {
-    justify-content: space-between;
-    align-items: center;
-}
-
 .desktop-app-frame .frame-text-block, .geeky-frame .frame-text-block{
     width: 59%;
 }
@@ -216,12 +219,16 @@ a {
     text-align: center;
 }
 
-.integration-frame {
-    align-items: center;
-}
-
 .integration-frame .frame-img-block {
     text-align: center;
+}
+
+.integration-frame .frame-img {
+    width: 315px;
+}
+
+.geeky-frame .frame-img {
+    width: 450px;
 }
 
 .frame-block {
@@ -581,6 +588,10 @@ a {
 
     .flex-footer > div {
         width: 33%;
+    }
+
+    .frame-img-block {
+        height: auto;
     }
 }
 
