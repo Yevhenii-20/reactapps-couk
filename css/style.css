@@ -137,8 +137,6 @@ a {
 }
 
 .button-main:hover {
-    background: #E46713;
-    color: #fff;
     transition: 0.5s;
     border-radius: 20px;
     transition: 0.5s;
@@ -383,7 +381,7 @@ a {
 
 .section-contact {
     width: 100%;
-    max-width: 1920px;
+    max-width: 1200px;
     background: url(../site_assets/images/banner-contact.jpeg) center center;
     background-repeat: no-repeat;
     background-size: cover;
