@@ -565,8 +565,105 @@ a {
     transform: rotate(45deg) translate(-8px, -3px);
 }
 
+
+
+
+
+
+
+/*----- SERVICE PAGE -----*/
+
+.vec-img {
+    width: 200px;
+}
+
+.flex-services {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.flex-services div:nth-child(2) {
+    width: 57%;
+}
+
+.black {
+    color: #000;
+}
+
+.our-services-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.box-service {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.box-service .main-container {
+    padding-top: 20px;
+}
+
+.service-bg-section {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.title-service {
+    font-size: 26px;
+    line-height: 1.4;
+    color: #000;
+}
+
+.software-development .service-bg-section  {
+    background-color: orange;
+}
+
+.web-application-development .service-bg-section {
+    background-color: grey;
+}
+
+.systems-analysis .service-bg-section {
+    background-color: yellowgreen;
+}
+
+.cloud-hosting .service-bg-section {
+    background-color: green;
+}
+
+.maintenance .service-bg-section {
+    background-color: pink;
+}
+
+.service-img {
+    width: 250px;
+}
+
+.text-service {
+    font-size: 20px;
+    line-height: 1.4;
+    color: #000; 
+    text-align: center;
+    padding-top: 20px;
+}
+
+.underline {
+    border-bottom: 2px solid #000;
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+
+
+
+
 @media screen and (max-width:1200px) {
-    .main-container {
+    .main-container, .service-bg-section {
         box-sizing: border-box;
         padding-left: 15px;
         padding-right: 15px;
@@ -639,6 +736,28 @@ a {
     .frame-text-block, .frame-img-block {
         margin: 0!important;
     }
+
+    .flex-services {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .flex-services div:nth-child(1) {
+        order: 2;
+        width: 49%;
+    }
+
+    .flex-services div:nth-child(2) {
+        order: 1;
+        width: 100%;
+        padding-bottom: 40px;
+    }
+
+    .flex-services div:nth-child(3) {
+        order: 3;
+        width: 49%;
+    }
+
 }
 
 @media screen and (max-width:768px) {
@@ -712,6 +831,10 @@ a {
         padding-top: 50px;
         padding-bottom: 50px;
     }
+
+    .our-services-section .text-custom {
+        padding-top: 20px;
+    }
 }
 
 @media screen and (max-width:500px) {
@@ -751,6 +874,27 @@ a {
 
     .description-contact {
         font-size: 24px;
+    }
+
+    .vec-img {
+        max-width: 100%;
+        width: auto;
+    }
+
+    .flex-services div:nth-child(1) {
+        width: 40%;
+    }
+
+    .flex-services div:nth-child(3) {
+        width: 40%;
+    }
+
+    .title-service {
+        font-size: 20px;
+    }
+
+    .service-img {
+        width: 220px;
     }
 }
 
