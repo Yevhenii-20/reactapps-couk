@@ -21,6 +21,11 @@ body {
 a {
     text-decoration: none;
     cursor: pointer;
+    outline: none;
+}
+
+input, textarea {
+    outline: none;
 }
 
 .header-section, main, .footer-section {
@@ -653,9 +658,12 @@ a {
 
 .underline {
     border-bottom: 2px solid #000;
-    width: 70%;
+    width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
 }
+
+
 
 /*----- OUR WORKS PAGE -----*/
 
@@ -749,6 +757,110 @@ a {
     font-weight: 300;
 }
 
+
+/*----- CONTACT US PAGE -----*/
+
+.contact-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.contact-section .title-main {
+    text-align: center;
+}
+
+.orange {
+    color: #E46713!important;
+}
+
+.title-contact-us {
+    color: #E46713;
+    font-size: 35px;
+    line-height: 40px;
+    font-weight: 700;
+}
+
+.contact-info-block {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-section .underline {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.left-contact div:nth-child(1) {
+    padding-bottom: 40px;
+}
+
+.text-contact {
+    color: #000;
+    font-size: 21px;
+    line-height: 25px;
+    font-weight: 500;
+    padding-top: 15px;
+    display: block;
+}
+
+.flex-social-contact {
+    display: flex;
+}
+
+.flex-social-contact .header-social {
+    margin-left: 0;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+
+.flex-social-contact img {
+    width: 40px;
+}
+
+.left-contact {
+    width: 35%;
+}
+
+.right-contact {
+    width: 50%;
+}
+
+.right-contact .text-contact {
+    font-weight: 300;
+    line-height: 1.4;
+    font-size: 18px;
+}
+
+.contact-input-block {
+    width: 100%;
+    margin-top: 7px;
+}
+
+.contact-input, .contact-send {
+    display: block;
+    width: 100%;
+    border: none;
+    background: #2b2f3a;
+    padding: 12px;
+    font-size: 15px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.contact-form {
+    padding-top: 20px;
+}
+
+.contact-input::placeholder {
+    color: #fff;
+}
+
+.contact-send {
+    background: #E46713;
+    text-align: center;
+    cursor: pointer;
+}
 
 
 
@@ -864,6 +976,10 @@ a {
     .works-container .work-block:nth-child(1) .work-text-block {
         padding: 20px;
     }
+
+    .right-contact {
+        width: 60%;
+    }
 }
 
 @media screen and (max-width:768px) {
@@ -958,6 +1074,18 @@ a {
 
     .text-custom {
         padding-top: 20px;
+    }
+
+    .contact-info-block {
+        flex-direction: column;
+    }
+
+    .left-contact, .right-contact {
+        width: 100%;
+    }
+
+    .right-contact {
+        margin-top: 40px;
     }
 }
 
