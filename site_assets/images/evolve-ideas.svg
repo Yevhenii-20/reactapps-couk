@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1507" height="1507" viewBox="0 0 1507 1507">
+  <defs>
+    <clipPath id="clip-Artboard_47">
+      <rect width="1507" height="1507"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_47" data-name="Artboard – 47" clip-path="url(#clip-Artboard_47)">
+    <g id="Group_209" data-name="Group 209" transform="translate(143.048 107.048)">
+      <ellipse id="Ellipse_227" data-name="Ellipse 227" cx="591.824" cy="591.822" rx="591.824" ry="591.822" transform="translate(19 55)" fill="#87cfea"/>
+      <path id="Path_450" data-name="Path 450" d="M0,0H37.231V25.134L32.809,64.406H4.422L0,25.134Z" transform="translate(564.189 1093.344)" fill="#f7e28d"/>
+      <path id="Path_451" data-name="Path 451" d="M0,0H37.231V25.134L32.809,64.406H4.422L0,25.134Z" transform="translate(620.741 1093.344)" fill="#f7e28d"/>
+      <path id="Rectangle_191" data-name="Rectangle 191" d="M0,0H223.063a0,0,0,0,1,0,0V110.229a50,50,0,0,1-50,50H50a50,50,0,0,1-50-50V0A0,0,0,0,1,0,0Z" transform="translate(498.998 947.253)" fill="#c7c7c7"/>
+      <path id="Subtraction_18" data-name="Subtraction 18" d="M237.2,721.03H0V118.6A119.48,119.48,0,0,1,2.41,94.7,117.95,117.95,0,0,1,20.255,52.29,118.947,118.947,0,0,1,72.436,9.32,118.011,118.011,0,0,1,94.7,2.41a119.756,119.756,0,0,1,47.8,0,117.951,117.951,0,0,1,42.409,17.846,118.947,118.947,0,0,1,42.97,52.181A118.01,118.01,0,0,1,234.792,94.7a119.487,119.487,0,0,1,2.41,23.9V721.029ZM118.6,157.873a19.619,19.619,0,0,0-19.635,19.635V670.761h39.271V177.508A19.62,19.62,0,0,0,118.6,157.873Z" transform="translate(551.622 172.029)" fill="#f5f3df"/>
+      <path id="Exclusion_9" data-name="Exclusion 9" d="M237.2,721.03H0V118.6A119.48,119.48,0,0,1,2.41,94.7,117.95,117.95,0,0,1,20.255,52.29,118.947,118.947,0,0,1,72.436,9.32,118.011,118.011,0,0,1,94.7,2.41a119.756,119.756,0,0,1,47.8,0,117.951,117.951,0,0,1,42.409,17.846,118.947,118.947,0,0,1,42.97,52.181A118.01,118.01,0,0,1,234.792,94.7a119.487,119.487,0,0,1,2.41,23.9V721.029ZM118.6,157.873a19.619,19.619,0,0,0-19.635,19.635V670.761h39.271V177.508A19.62,19.62,0,0,0,118.6,157.873Z" transform="translate(433.022 172.029)" fill="#fcfbef"/>
+      <path id="Path_449" data-name="Path 449" d="M0,0H330.668V25.134L291.4,64.406H39.272L0,25.134Z" transform="translate(445.589 940.184)" fill="#bababa"/>
+      <rect id="Rectangle_189" data-name="Rectangle 189" width="428.061" height="106.034" transform="translate(396.892 842.79)" fill="#c7c7c7"/>
+    </g>
+  </g>
+</svg>
